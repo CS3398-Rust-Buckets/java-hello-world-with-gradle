@@ -22,6 +22,18 @@ public class TestGreeter {
       assertEquals(g.getName(),"");
       assertEquals(g.sayHello(),"Hello!");
    }
+
+   @Test
+   public void testGreeterPassElliot()
+   {
+      assertEquals("Elliot","Elliot");
+   }
+
+   @Test
+   public void testGreeterFailElliot()
+   {
+      assertEquals("Elliot","Not Elliot");
+   }
 	
    @Test
    public void testGreeter() 
