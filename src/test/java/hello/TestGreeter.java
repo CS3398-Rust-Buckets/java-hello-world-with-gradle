@@ -33,4 +33,16 @@ public class TestGreeter {
       assertEquals(g.sayHello(),"Hello World!");
 
    }
+
+   @Test
+   public void newtest_tc_GreeterPass()
+   {
+     g.setTest("Class_of_2017");
+     assertEquals(g.getTest(),"Class_of_2017");
+     assertEquals(g.test2017(),"Trey passed Dr.Lehrs Software Engineering course with an A!");
+  
+   }
+
+
+
 }
