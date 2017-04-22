@@ -10,6 +10,7 @@ import org.junit.Test;
 public class TestGreeter {
 
    private Greeter g;
+
 	
    @Before
    public void setUp() throws Exception 
@@ -21,7 +22,8 @@ public class TestGreeter {
    public void testGreeterEmpty() 
    {
       assertEquals(g.getName(),"");
-      assertEquals(g.sayHello(),"Hello!");
+      assertEquals(g.sayHello(),"Goodbye");
+
    }
 	
    @Test
@@ -30,5 +32,6 @@ public class TestGreeter {
       g.setName("World");
       assertEquals(g.getName(),"World");
       assertEquals(g.sayHello(),"Hello World!");
+
    }
 }
