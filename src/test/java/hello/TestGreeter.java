@@ -10,7 +10,8 @@ import org.junit.Test;
 public class TestGreeter {
 
    private Greeter g;
-	
+
+  
    @Before
    public void setUp() throws Exception 
    {
@@ -23,12 +24,27 @@ public class TestGreeter {
       assertEquals(g.getName(),"");
       assertEquals(g.sayHello(),"Hello!");
    }
-	
+  
    @Test
    public void testGreeter() 
    {
       g.setName("World");
       assertEquals(g.getName(),"World");
       assertEquals(g.sayHello(),"Hello World!");
+
    }
+
+   @Test
+   public void newtest_la_GreeterPass()
+   {
+     g.setTest("graduate");
+     assertEquals(g.getTest(),"graduate");
+     assertEquals(g.test2017(),"I am a Texas State graduate!");
+  
+   }
+
+
+
 }
+
+

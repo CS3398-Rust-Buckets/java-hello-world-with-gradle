@@ -3,6 +3,7 @@ package hello;
 public class Greeter {
 
   private String name = "";
+  private String test = "passed";
 
   public String getName() 
   {
@@ -10,21 +11,44 @@ public class Greeter {
     return name;
     
   }
+  public String getTest() 
+  {
 
+    return test = test;
+    
+  }
   public void setName(String name) 
   {
       this.name = name;
-  }
 
+  }
+   
+  public void setTest(String test) 
+  {
+      this.test = test;
+      
+  }
+   
   public String sayHello() 
   {
-  	if (name == "") 
+    if (name == "") 
     {
        return "Hello!";
     }
     else 
     {
        return "Hello " + name + "!";
+    }
+  }
+  public String test2017() 
+  {
+    if (test != test) 
+    {
+       return "Software Engineer";
+    }
+    else 
+    {
+       return "I am a Texas State " + test + "!";
     }
   }
 }
