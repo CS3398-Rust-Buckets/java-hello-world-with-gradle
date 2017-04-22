@@ -44,7 +44,7 @@ public class Greeter {
   {
   	if (test == test) 
     {
-       return "Trey passed Dr.Lehrs Software Engineering course with an A";
+       return "Trey passed Dr.Lehrs Software Engineering course with an A!";
     }
     else 
     {

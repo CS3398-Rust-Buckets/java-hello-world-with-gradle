@@ -39,7 +39,8 @@ public class TestGreeter {
    {
      g.setTest("Class_of_2017");
      assertEquals(g.getTest(),"Class_of_2017");
-     assertEquals(g.test2017(),"Trey is coding this @ 5:01 in his living room ");
+     assertEquals(g.test2017(),"Trey passed Dr.Lehrs Software Engineering course with an A!");
+  
    }
 
 
