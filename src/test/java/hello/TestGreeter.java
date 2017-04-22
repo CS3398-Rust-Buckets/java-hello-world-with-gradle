@@ -35,11 +35,11 @@ public class TestGreeter {
    }
 
    @Test
-   public void newtest_la_GreeterPass()
+   public void newtest_la_GreeterFail()
    {
      g.setTest("graduate");
      assertEquals(g.getTest(),"graduate");
-     assertEquals(g.test2017(),"I am a Texas State graduate!");
+     assertEquals(g.test2017(),"Software Engineer");
   
    }
 
