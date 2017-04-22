@@ -22,7 +22,7 @@ public class TestGreeter {
    public void testGreeterEmpty() 
    {
       assertEquals(g.getName(),"");
-      assertEquals(g.sayHello(),"Goodbye");
+      assertEquals(g.sayHello(),"Hello");
 
    }
 	
