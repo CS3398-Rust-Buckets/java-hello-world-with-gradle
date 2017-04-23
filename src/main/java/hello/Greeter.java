@@ -42,7 +42,7 @@ public class Greeter {
   }
   public String test2017() 
   {
-    if (test != test) 
+    if (test == test)
     {
        return "Software Engineer";
     }
@@ -51,4 +51,16 @@ public class Greeter {
        return "I am a Texas State " + test + "!";
     }
   }
+    public String test2()
+    {
+        if (test != test)
+        {
+            return "Software Engineer";
+        }
+        else
+        {
+            return "I am a Texas State " + test + "!";
+        }
+    }
+    
 }
