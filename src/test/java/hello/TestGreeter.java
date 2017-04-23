@@ -34,16 +34,14 @@ public class TestGreeter {
 
    }
 
-   @Test
-   public void newtest_la_GreeterFail()
-   {
-     g.setTest("graduate");
-     assertEquals(g.getTest(),"graduate");
-     assertEquals(g.test2017(),"Software Engineer");
-  
-   }
-
-
+    @Test
+    public void newest_LA_GreeterPass()
+    {
+        g.setTest("pass");
+        assertEquals(g.getTest(),"graduate");
+        assertEquals(g.test2017(),"Software Engineer");
+        
+    }
 
 }
 
