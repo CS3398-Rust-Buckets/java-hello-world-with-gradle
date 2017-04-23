@@ -35,7 +35,7 @@ public class TestGreeter {
    }
 
    @Test
-   public void newtest_tc_GreeterFail()
+   public void newtest_tc_GreeterPass()
    {
      g.setTest("Class_of_2017");
      assertEquals(g.getTest(),"Class_of_2017");
