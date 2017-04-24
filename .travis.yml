@@ -1,8 +1,4 @@
 language: java
 
-<<<<<<< HEAD
-script ./gradlew build
-=======
 
 script: ./gradlew build
->>>>>>> master
