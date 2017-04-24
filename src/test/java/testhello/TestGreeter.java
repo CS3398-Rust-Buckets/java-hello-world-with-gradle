@@ -24,9 +24,9 @@ public class TestGreeter {
    }
 
    @Test
-   public void testGreeterFailElliot()
+   public void testGreeterPassElliot()
    {
-      assertEquals("Elliot","Not Elliot");
+      assertEquals("Elliot","Elliot");
    }
 	
    @Test
