@@ -30,4 +30,11 @@ public class TestGreeter {
       assertEquals(g.getName(),"World");
       assertEquals(g.sayHello(),"Hello World!");
    }
+
+   @Test
+   public void newtest_IGB_GreeterPass()
+   {
+      assertEquals("A18-Isaac-Pass","A18-Isaac-Pass");
+   }
+
 }
