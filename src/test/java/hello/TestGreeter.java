@@ -37,4 +37,11 @@ public class TestGreeter {
       assertEquals("A18-Isaac-Pass","A18-Isaac-Pass");
    }
 
+   @Test
+   public void newtest_IGB_GreeterFail()
+   {  
+      assertEquals("A18-Isaac-fail","A18-Isaac-fail");
+      This line of code will make the build fail! :/
+   }
+
 }
