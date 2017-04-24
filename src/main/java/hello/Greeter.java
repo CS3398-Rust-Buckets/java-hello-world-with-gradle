@@ -1,48 +1,37 @@
 package hello;
 
 public class Greeter {
-<<<<<<< HEAD
-    
-    private String name = "";
-    
-    public String getName()
-    {
-        return name;
-    }
-    
-    public void setName(String name)
-    {
-        this.name = name;
-    }
-    
-    public String sayHello()
-    {
-        if (name == "")
-        {
-            return "Hello!";
-        }
-        else
-        {
-            return "Hello " + name + "!";
-        }
-    }
-=======
 
   private String name = "";
+  private String test = "passed";
 
   public String getName() 
   {
-    return name;
-  }
 
+    return name;
+    
+  }
+  public String getTest() 
+  {
+
+    return test = test;
+    
+  }
   public void setName(String name) 
   {
       this.name = name;
-  }
 
+  }
+   
+  public void setTest(String test) 
+  {
+      this.test = test;
+      
+  }
+   
   public String sayHello() 
   {
-  	if (name == "") 
+    if (name == "") 
     {
        return "Hello!";
     }
@@ -51,5 +40,27 @@ public class Greeter {
        return "Hello " + name + "!";
     }
   }
->>>>>>> master
+  public String test2017() 
+  {
+    if (test == test)
+    {
+       return "James";
+    }
+    else 
+    {
+       return "I am a Texas State " + test + "!";
+    }
+  }
+    public String test2()
+    {
+        if (test != test)
+        {
+            return "James";
+        }
+        else
+        {
+            return "I am a Texas State " + test + "!";
+        }
+    }
+    
 }
