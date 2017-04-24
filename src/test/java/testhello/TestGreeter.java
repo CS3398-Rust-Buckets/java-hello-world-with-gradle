@@ -28,12 +28,6 @@ public class TestGreeter {
    {
       assertEquals("Elliot","Elliot");
    }
-
-   @Test
-   public void testGreeterFailElliot()
-   {
-      assertEquals("Elliot","Not Elliot");
-   }
 	
    @Test
    public void testGreeter() 
