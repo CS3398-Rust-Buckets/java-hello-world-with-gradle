@@ -1,44 +1,10 @@
-
-/*****************************************************
-hello package template:
-
-package hello;
-
-public class Greeter {
-
-  private String name = "";
-
-  public String getName() 
-  {
-    return name;
-  }
-
-  public void setName(String name) 
-  {
-      this.name = name;
-  }
-   
-  public String sayHello() 
-  {
-    if (name == "") 
-    {
-       return "Hello!";
-    }
-    else 
-    {
-       return "Hello " + name + "!";
-    }
-  } 
-}
-***************************************************/
-
 package extraCredit;
 import java.lang.Math;
 
 public class ExtraCredit {
 
-  private double number = 1;
-  private double power = 1;
+  private double number = 1.0;
+  private double power = 1.0;
 
   public double getNum()
   {
@@ -62,15 +28,13 @@ public class ExtraCredit {
 
   public double findPower()
   {
-    if (number == 1)
+    if (number == 1.0)
     {
-      return 1;
+      return 1.0;
     }
     else
     {
-      double powerUp = 0;
-      powerUp = pow(number,power);
-      return powerUp;
+      return Math.pow(number, power);
     }
   }
 }

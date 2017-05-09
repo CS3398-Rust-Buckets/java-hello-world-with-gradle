@@ -66,7 +66,7 @@ set CMD_LINE_ARGS=%*
 set CLASSPATH=%APP_HOME%\lib\jb-hello-world-0.1.0.jar;%APP_HOME%\lib\joda-time-2.2.jar
 
 @rem Execute HelloWorld
-"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %HELLO_WORLD_OPTS%  -classpath "%CLASSPATH%" hello.HelloWorld %CMD_LINE_ARGS%
+"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %HELLO_WORLD_OPTS%  -classpath "%CLASSPATH%" hello.ExtraCredit %CMD_LINE_ARGS%
 
 :end
 @rem End local scope for the variables with windows NT shell
