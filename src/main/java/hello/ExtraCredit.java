@@ -1,3 +1,14 @@
+/**************************
+Laura Adams
+5/8/2017
+
+This code calculates a number's square, 
+a number raised to the power of another number, 
+as well as the Fibonacci sequence.
+
+The file TestExtraCredit.java does 
+some Junit tests for this code.
+***************************/
 package extraCredit;
 import java.lang.Math;
 
