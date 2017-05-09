@@ -4,7 +4,8 @@ Laura Adams
 
 This file TestPower.java does 
 some Junit tests for the code in ExtraCredit.java,
-a number after being raised to a different power,
+which has a function findPower() that 
+computes a number raised to a power.
 ***************************/
 package extraCredit;
 

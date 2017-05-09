@@ -4,7 +4,8 @@ Laura Adams
 
 This file TestFibNum.java does 
 some Junit tests for the code in ExtraCredit.java,
-which computes the fibonacci sequence.
+which has a function findFibNum() that 
+computes the Fibonaci Sequence.
 ***************************/
 package extraCredit;
 

@@ -4,7 +4,8 @@ Laura Adams
 
 This file TestSquare.java does 
 some Junit tests for the code in ExtraCredit.java,
-which computes the square of a number.
+which has a function findSquare() that 
+computes the square of a number.
 ***************************/
 package extraCredit;
 
