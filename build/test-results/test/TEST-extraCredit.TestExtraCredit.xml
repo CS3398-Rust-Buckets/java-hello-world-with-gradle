@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="extraCredit.TestExtraCredit" tests="5" skipped="0" failures="0" errors="0" timestamp="2017-05-09T02:27:09" hostname="Lauras-MacBook-Air.local" time="0.002">
+<testsuite name="extraCredit.TestExtraCredit" tests="10" skipped="0" failures="0" errors="0" timestamp="2017-05-09T02:46:36" hostname="Lauras-MacBook-Air.local" time="0.005">
   <properties/>
   <testcase name="testFibNum1" classname="extraCredit.TestExtraCredit" time="0.001"/>
   <testcase name="testFibNum2" classname="extraCredit.TestExtraCredit" time="0.0"/>
-  <testcase name="testPower" classname="extraCredit.TestExtraCredit" time="0.0"/>
+  <testcase name="testFibNum3" classname="extraCredit.TestExtraCredit" time="0.0"/>
   <testcase name="testNumberEmpty" classname="extraCredit.TestExtraCredit" time="0.0"/>
-  <testcase name="testSquare" classname="extraCredit.TestExtraCredit" time="0.0"/>
+  <testcase name="testPower1" classname="extraCredit.TestExtraCredit" time="0.0"/>
+  <testcase name="testPower2" classname="extraCredit.TestExtraCredit" time="0.0"/>
+  <testcase name="testPower3" classname="extraCredit.TestExtraCredit" time="0.0"/>
+  <testcase name="testSquare1" classname="extraCredit.TestExtraCredit" time="0.0"/>
+  <testcase name="testSquare2" classname="extraCredit.TestExtraCredit" time="0.0"/>
+  <testcase name="testSquare3" classname="extraCredit.TestExtraCredit" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
