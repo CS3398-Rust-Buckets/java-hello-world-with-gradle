@@ -1,6 +1,6 @@
 /**************************
 Laura Adams
-5/8/2017
+5/9/2017
 
 This file TestSquare.java does 
 some Junit tests for the code in ExtraCredit.java,
