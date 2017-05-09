@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="hello.TestGreeter" tests="3" skipped="0" failures="0" errors="0" timestamp="2017-05-09T03:07:36" hostname="Lauras-MacBook-Air.local" time="0.001">
+<testsuite name="hello.TestGreeter" tests="3" skipped="0" failures="0" errors="0" timestamp="2017-05-09T18:25:06" hostname="Lauras-MacBook-Air.local" time="0.001">
   <properties/>
-  <testcase name="testGreeter" classname="hello.TestGreeter" time="0.0"/>
+  <testcase name="testGreeter" classname="hello.TestGreeter" time="0.001"/>
   <testcase name="testGreeterEmpty" classname="hello.TestGreeter" time="0.0"/>
-  <testcase name="newest_LA_GreeterPass" classname="hello.TestGreeter" time="0.001"/>
+  <testcase name="newest_LA_GreeterPass" classname="hello.TestGreeter" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

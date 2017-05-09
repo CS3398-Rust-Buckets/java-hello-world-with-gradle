@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="extraCredit.TestFibNum" tests="4" skipped="0" failures="0" errors="0" timestamp="2017-05-09T18:25:06" hostname="Lauras-MacBook-Air.local" time="0.002">
+  <properties/>
+  <testcase name="testFibNum1" classname="extraCredit.TestFibNum" time="0.001"/>
+  <testcase name="testFibNum2" classname="extraCredit.TestFibNum" time="0.0"/>
+  <testcase name="testFibNum3" classname="extraCredit.TestFibNum" time="0.0"/>
+  <testcase name="testNumberEmpty" classname="extraCredit.TestFibNum" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
