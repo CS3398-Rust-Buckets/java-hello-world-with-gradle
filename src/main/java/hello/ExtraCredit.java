@@ -33,22 +33,34 @@ public class Greeter {
 ***************************************************/
 
 package extraCredit;
+import java.lang.Math;
 
-public class mathWorks {
+public class ExtraCredit {
 
-  private int number = 1;
+  private double number = 1;
+  private double power = 1;
 
-  public int getNum()
+  public double getNum()
   {
     return number;
   }
 
-  public void setNum(int newNumber)
+  public double getPower()
+  {
+    return power;
+  }
+
+  public void setNum(double newNumber)
   {
     this.number = newNumber;
   }
 
-  public int getCube()
+  public void setPower(double newPower)
+  {
+    this.power = newPower;
+  }
+
+  public double findPower()
   {
     if (number == 1)
     {
@@ -56,7 +68,9 @@ public class mathWorks {
     }
     else
     {
-      
+      double powerUp = 0;
+      powerUp = pow(number,power);
+      return powerUp;
     }
   }
 }
