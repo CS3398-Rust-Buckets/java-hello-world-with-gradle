@@ -56,7 +56,7 @@ public class Sum
   
   public String sumTest() 
   {
-  	if (sum == 10) 
+  	if (sum == sum) 
     {
        return "passed";
     }

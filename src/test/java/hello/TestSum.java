@@ -30,11 +30,11 @@ public class TestSum {
    public void testSum() 
    {
       s.setNum(6);
-      s.setNumb(4);
-      s.setSum(6,4);
+      s.setNumb(6);
+      s.setSum(6,6);
       assertEquals(s.getNum(),6);
-      assertEquals(s.getNum2(),4);
-      assertEquals(s.getSum(),10);
+      assertEquals(s.getNum2(),6);
+      assertEquals(s.getSum(),12);
       assertEquals(s.sumTest(),"passed");
 
    }

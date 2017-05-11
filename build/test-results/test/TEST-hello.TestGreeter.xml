@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="hello.TestGreeter" tests="3" skipped="0" failures="0" errors="0" timestamp="2017-05-11T03:31:21" hostname="DESKTOP-6FPM597" time="0.006">
+<testsuite name="hello.TestGreeter" tests="3" skipped="0" failures="0" errors="0" timestamp="2017-05-11T04:41:28" hostname="DESKTOP-6FPM597" time="0.0">
   <properties/>
-  <testcase name="newtest_tc_GreeterPass" classname="hello.TestGreeter" time="0.004"/>
+  <testcase name="newtest_tc_GreeterPass" classname="hello.TestGreeter" time="0.0"/>
   <testcase name="testGreeter" classname="hello.TestGreeter" time="0.0"/>
   <testcase name="testGreeterEmpty" classname="hello.TestGreeter" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
