@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="extraCredit.TestSquare" tests="4" skipped="0" failures="0" errors="0" timestamp="2017-05-09T18:31:03" hostname="Lauras-MacBook-Air.local" time="0.001">
+<testsuite name="extraCredit.TestSquare" tests="4" skipped="0" failures="0" errors="0" timestamp="2017-05-09T18:50:26" hostname="Lauras-MacBook-Air.local" time="0.001">
   <properties/>
-  <testcase name="testNumberEmpty" classname="extraCredit.TestSquare" time="0.0"/>
-  <testcase name="testSquare1" classname="extraCredit.TestSquare" time="0.001"/>
+  <testcase name="testNumberEmpty" classname="extraCredit.TestSquare" time="0.001"/>
+  <testcase name="testSquare1" classname="extraCredit.TestSquare" time="0.0"/>
   <testcase name="testSquare2" classname="extraCredit.TestSquare" time="0.0"/>
   <testcase name="testSquare3" classname="extraCredit.TestSquare" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
